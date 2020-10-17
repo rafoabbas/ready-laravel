@@ -1,0 +1,1 @@
+<a data-ajax-sweet="item" data-method="DELETE"  data-url="{{ isset($url) ? $url : '#' }}" data-title="@lang('are_you_sure')" data-message="@lang('this_process_is_irreversible.')" data-yes="@lang('yes')" data-no="@lang('no')" class="dropdown-item" href="#"><i class="mdi mdi-delete mr-2 text-muted vertical-middle"></i>@lang('delete')</a>
